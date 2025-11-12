@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import {NavLink, Link} from 'react-router-dom'
 import galiseguros from 'assets/img/palabra_gali_seguros_azul_sinfondo.png'
-import escudo from 'assets/img/escudo_gali_seguros_azul_sinfondo.png'
+import escudo from 'assets/img/escudo_sin_fondo.jpg'
 import escudoinvertido from 'assets/img/escudo_gali_seguros_blanco.jpg'
 import loading from 'assets/img/loading.gif'
 import { Fragment } from 'react'

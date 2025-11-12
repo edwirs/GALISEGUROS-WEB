@@ -16,7 +16,7 @@ function Clients(){
                     <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
                         <div>
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            Aliados de confianza en todo el territorio colombiano
+                            Aliados de confianza en todo el territorio nacional
                         </h2>
                         <p className="mt-3 max-w-3xl text-lg text-gray-500">
                             En Gali Seguros acompañamos a clientes particulares y empresariales a nivel nacional, 
