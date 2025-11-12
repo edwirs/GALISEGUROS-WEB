@@ -150,7 +150,7 @@ function Footer() {
         <div className="mt-8 border-t border-gray-300"></div>
 
         {/* Contacto */}
-        <div className="text-center text-gray-700 text-sm mt-4">
+        <div className="text-center text-gray-700 text-sm mt-4 font-semibold">
           <a
             href="tel:+573227354638"
             className="hover:text-blue-700 transition-colors duration-300"
