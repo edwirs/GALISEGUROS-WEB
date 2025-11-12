@@ -137,7 +137,7 @@ function Header(){
                 w-auto 
                 h-[60px]        /* celulares */
                 sm:h-[120px]     /* tablets */
-                md:h-[210px]     /* pantallas medianas */
+                md:h-[190px]     /* pantallas medianas */
                 lg:h-[240px]     /* pantallas grandes */
                 object-contain object-top 
                 ml-auto 

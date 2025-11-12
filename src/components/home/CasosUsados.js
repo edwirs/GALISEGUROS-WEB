@@ -72,6 +72,57 @@ const posts = [
           'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
+    {
+      title: 'Excelencia en productos',
+      href: '#',
+      category: { name: 'Articulo', href: '#' },
+      description:
+        'Buena y rápida atención. Llevo muchos años trabajando con Gali seguros y esta empresa marca la diferencia en cuanto al servicio del cliente y eficiencia en sus productos.',
+      date: 'Ene, 2022',
+      datetime: '2023-09-15',
+      imageUrl: cliente4,
+      readingTime: '',
+      author: {
+        name: 'Maria de pilar Gómez',
+        href: '#',
+        imageUrl:
+          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    },
+    {
+      title: 'La mejor asesoria',
+      href: '#',
+      category: { name: 'Articulo', href: '#' },
+      description:
+        'En las mejores manos no he podido estar Gali seguros la mejor empresa de seguros. Muy profesionales, serios y atentos en todo lo que necesiten, máxima eficiencia. La recomiendo.',
+      date: 'Dic, 2023',
+      datetime: '2023-09-15',
+      imageUrl: cliente4,
+      readingTime: '',
+      author: {
+        name: 'Andres Pineda',
+        href: '#',
+        imageUrl:
+          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    },
+    {
+      title: 'Un gran equipo',
+      href: '#',
+      category: { name: 'Articulo', href: '#' },
+      description:
+        'Gran equipo, gente con calidad humana dispuestos a resolver problemas, les agradezco mucho la atención y rapidez con la que me dan solucion a lo que nececesite.',
+      date: 'Mar, 2024',
+      datetime: '2023-09-15',
+      imageUrl: cliente4,
+      readingTime: '',
+      author: {
+        name: 'Andres Pineda',
+        href: '#',
+        imageUrl:
+          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    },
   ]
   
   export default function CasosUsados() {

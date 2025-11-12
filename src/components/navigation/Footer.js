@@ -126,10 +126,10 @@ function Footer() {
           </a>{' '}
           |{' '}
           <a
-            href="mailto:contacto@galiseguros.com"
+            href="mailto:lilianmq@galiseguros.com"
             className="hover:text-blue-700 transition-colors duration-300"
           >
-            ✉ contacto@galiseguros.com
+            ✉ lilianmq@galiseguros.com
           </a>
         </div>
       </div>

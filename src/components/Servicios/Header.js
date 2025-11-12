@@ -132,8 +132,8 @@ function Header() {
                         className="
                           w-auto 
                           h-[60px]        /* celulares */
-                          sm:h-[100px]     /* tablets */
-                          md:h-[180px]     /* pantallas medianas */
+                          sm:h-[80px]     /* tablets */
+                          md:h-[160px]     /* pantallas medianas */
                           lg:h-[200px]     /* pantallas grandes */
                           object-contain object-top 
                           ml-auto 
