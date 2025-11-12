@@ -24,7 +24,7 @@ function Contacto() {
       icon: <img src={gmailLogo} alt="Gmail" className="w-8 h-8" />,
       title: "Envíame un correo electrónico",
       description: "Escríbenos y te responderemos pronto.",
-      link: "mailto:fenixtarotcol@galiseguros.com?subject=Consulta%20acerca%20del%20tarot",
+      link: "mailto:lilianmq@galiseguros.com?subject=Consulta%20acerca%20de%",
     },
     {
       icon: <img src={FacebookLogo} alt="Gmail" className="w-8 h-8" />,
