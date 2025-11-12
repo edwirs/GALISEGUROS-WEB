@@ -1,53 +1,72 @@
+import cliente1 from 'assets/img/clientes/cliente1.jpg'
+import cliente2 from 'assets/img/clientes/cliente2.webp'
+import cliente3 from 'assets/img/clientes/cliente3.png'
+import cliente4 from 'assets/img/clientes/cliente4.png'
+
 const posts = [
     {
-      title: 'Boost your conversion rate',
+      title: 'Contenta con Gali Seguros',
       href: '#',
-      category: { name: 'Article', href: '#' },
+      category: { name: 'Articulo', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-      readingTime: '6 min',
+        'Estoy muy agradecida con esta  compañía, son muy cumplidos y prestan una muy buena asesoría. Los felicito y volveré a contratar con ustedes.',
+      date: 'Mar, 2019',
+      datetime: '2019-03-16',
+      imageUrl: cliente1,
+      readingTime: '',
       author: {
-        name: 'Roel Aufderehar',
+        name: 'Blanca Verano Chacon',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
     {
-      title: 'How to use search engine optimization to drive sales',
+      title: 'Confianza con Gali Seguros',
       href: '#',
-      category: { name: 'Video', href: '#' },
+      category: { name: 'Articulo', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
-      date: 'Mar 10, 2020',
-      datetime: '2020-03-10',
-      imageUrl:
-        'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-      readingTime: '4 min',
+        'Gali Seguros ha sido un aliado confiable durante años. Su atención es oportuna, clara y eficiente, y siempre me han brindado tranquilidad en la gestión de mis seguros. Valoro mucho su compromiso y seriedad.',
+      date: 'Jun, 2017',
+      datetime: '2017-06-10',
+      imageUrl: cliente2,
+      readingTime: '',
       author: {
-        name: 'Brenna Goyette',
+        name: 'María del Carmen Rojas',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
     },
     {
-      title: 'Improve your customer experience',
+      title: 'Estimados Gali Seguros',
       href: '#',
-      category: { name: 'Case Study', href: '#' },
+      category: { name: 'Articulo', href: '#' },
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
-      date: 'Feb 12, 2020',
-      datetime: '2020-02-12',
-      imageUrl:
-        'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-      readingTime: '11 min',
+        'Les escribo para expresar mi sincero agradecimiento por el excelente servicio que me han brindado. Su profesionalismo, atención y rápida respuesta han superado mis expectativas y hacen que sea un placer contar con su respaldo. Gracias por su buen trabajo. Saludos cordiales.',
+      date: 'Feb, 2021',
+      datetime: '2021-02-01',
+      imageUrl: cliente3,
+      readingTime: '',
       author: {
-        name: 'Daniela Metz',
+        name: 'Cesar Diaz',
+        href: '#',
+        imageUrl:
+          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      },
+    },
+    {
+      title: 'Cumplimiento con Gali Seguros',
+      href: '#',
+      category: { name: 'Articulo', href: '#' },
+      description:
+        'Cumplen lo que prometen, siempre contestan las dudas o inquietudes y acompañan en todo el proceso, antes y durante la vigencia de las coberturas. Recomendados 10/10.',
+      date: 'Sep, 2023',
+      datetime: '2023-09-15',
+      imageUrl: cliente4,
+      readingTime: '',
+      author: {
+        name: 'Mauricio Hernandez',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -57,7 +76,7 @@ const posts = [
   
   export default function CasosUsados() {
     return (
-      <div className="relative bg-gray-50 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+      <div className="relative bg-gray-50 px-4 pt-8 pb-10 sm:px-6 lg:px-8 lg:pt-12 lg:pb-16">
         <div className="absolute inset-0">
           <div className="h-1/3 bg-white sm:h-2/3" />
         </div>
@@ -88,7 +107,11 @@ const posts = [
                     <div className="flex-shrink-0">
                       <a href={post.author.href}>
                         <span className="sr-only">{post.author.name}</span>
-                        <img className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
+                        <img
+                          className="h-10 w-10 rounded-full blur-sm hover:blur-none transition duration-300 ease-in-out"
+                          src={post.author.imageUrl}
+                          alt={post.author.name}
+                        />
                       </a>
                     </div>
                     <div className="ml-3">
@@ -100,7 +123,7 @@ const posts = [
                       <div className="flex space-x-1 text-sm text-gray-500">
                         <time dateTime={post.datetime}>{post.date}</time>
                         <span aria-hidden="true">&middot;</span>
-                        <span>{post.readingTime} read</span>
+                        <span>{post.readingTime}</span>
                       </div>
                     </div>
                   </div>

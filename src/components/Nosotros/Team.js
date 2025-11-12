@@ -1,103 +1,117 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import lilian from 'assets/img/team/lilian_fondo_nuevo.png'
+import gabriel from 'assets/img/team/gabriel_fondo_nuevo.png'
+
 const people = [
-    {
-      name: 'Diego Barragan',
-      role: 'Gerente y Propietario',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      twitterUrl: '#',
-      linkedinUrl: '#',
-    },
-    {
-        name: 'Diego Barragan',
-        role: 'Jefe Operaciones',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-      {
-        name: 'Edwin Barragan',
-        role: 'Jefe Comercial   ',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        twitterUrl: '#',
-        linkedinUrl: '#',
-      },
-    // More people...
-  ]
-  
-  export default function Team() {
-    return (
-      <div className="bg-white">
-        <div className="mx-auto lg:mx-12 max-w-full py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
-          <div className="space-y-12">
-            <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Nuestro Equipo</h2>
-              <p className="text-xl text-gray-500">
-                Nuestro equipo esta compuesto por personas comprometidas con la compañia, teniendo amplios conocimientos sobre los productos que ofrecemos. 
-                Ellos son los pilares funadmentales para que nuestra compañia sea lider en calidad y cumplimiento.
-              </p>
-            </div>
-            <ul
-              role="list"
-              className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8"
-            >
-              {people.map((person) => (
-                <li key={person.name}>
-                  <div className="space-y-4">
-                    <div className="aspect-w-3 aspect-h-2">
-                      <img className="rounded-lg object-cover shadow-lg" src={person.imageUrl} alt="" />
-                    </div>
-  
-                    <div className="space-y-2">
-                      <div className="space-y-1 text-lg font-medium leading-6">
-                        <h3>{person.name}</h3>
-                        <p className="text-indigo-600">{person.role}</p>
-                      </div>
-                      <ul role="list" className="flex space-x-5">
-                        <li>
-                          <a href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
-                            <span className="sr-only">Twitter</span>
-                            <svg className="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
-                              <path d="M6.29 18.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0020 3.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.073 4.073 0 01.8 7.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 010 16.407a11.616 11.616 0 006.29 1.84" />
-                            </svg>
-                          </a>
-                        </li>
-                        <li>
-                          <a href={person.linkedinUrl} className="text-gray-400 hover:text-gray-500">
-                            <span className="sr-only">LinkedIn</span>
-                            <svg className="h-5 w-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
-                              <path
-                                fillRule="evenodd"
-                                d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
-                                clipRule="evenodd"
-                              />
-                            </svg>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-              ))}
-            </ul>
+  {
+    name: 'Lilian Quiroga',
+    role: 'Gerente General - GL',
+    imageUrl: lilian,
+    whatsappUrl: 'https://wa.me/573227354638', // <-- cambia por número real
+    instagramUrl: 'https://www.instagram.com/gali.seguros?igsh=MWs0cjRmNnFpaHVvOQ==', // <-- cambia por URL real
+  },
+  {
+    name: 'Gabriel Beltran',
+    role: 'Gerente Administrativo - GL',
+    imageUrl: gabriel,
+    whatsappUrl: 'https://wa.me/573186008106',
+    instagramUrl: 'https://www.instagram.com/gali.seguros?igsh=MWs0cjRmNnFpaHVvOQ==',
+  },
+]
+
+export default function Team() {
+  return (
+    <div className="bg-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="space-y-12">
+          {/* --- Título y texto alineados a la izquierda --- */}
+          <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl">
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              Nuestro Equipo
+            </h2>
           </div>
+
+          {/* --- Párrafo ancho completo --- */}
+          <div className="w-full">
+            <p className="text-xl text-gray-500">
+              Nuestro equipo está compuesto por personas comprometidas con la compañía, 
+              con amplios conocimientos sobre los productos que ofrecemos. 
+              Ellos son los pilares fundamentales para que nuestra compañía sea líder 
+              en calidad y cumplimiento.
+            </p>
+          </div>
+
+          {/* --- SOLO las tarjetas centradas --- */}
+          <ul
+            role="list"
+            className="mx-auto flex flex-wrap justify-center gap-16 max-w-5xl"
+          >
+            {people.map((person) => (
+              <li key={person.name} className="w-72 text-center">
+                <div className="space-y-4">
+                  <div className="aspect-w-3 aspect-h-3">
+                    <img
+                      className="rounded-lg object-cover shadow-lg mx-auto"
+                      src={person.imageUrl}
+                      alt={person.name}
+                    />
+                  </div>
+
+                  <div className="space-y-2">
+                    <div className="space-y-1 text-lg font-medium leading-6">
+                      <h3>{person.name}</h3>
+                      <p className="text-indigo-600">{person.role}</p>
+                    </div>
+
+                    {/* --- ICONOS WhatsApp e Instagram --- */}
+                    <ul role="list" className="flex justify-center space-x-6">
+                      {/* WhatsApp */}
+                      <li>
+                        <a
+                          href={person.whatsappUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-400 hover:text-green-500 transition-colors duration-200"
+                        >
+                          <span className="sr-only">WhatsApp</span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M12.04 2C6.52 2 2 6.18 2 11.39c0 2.23.86 4.27 2.3 5.87L2 22l4.97-1.52a10.4 10.4 0 005.07 1.3c5.52 0 10.04-4.18 10.04-9.39S17.56 2 12.04 2zm0 17.03a8.4 8.4 0 01-4.28-1.18l-.31-.19-2.95.9.97-2.8-.2-.29a7.31 7.31 0 01-1.46-4.34c0-4.08 3.42-7.39 7.63-7.39 4.22 0 7.64 3.31 7.64 7.39 0 4.08-3.42 7.39-7.64 7.39z" />
+                            <path d="M16.61 14.61c-.27-.13-1.63-.8-1.88-.89-.25-.09-.43-.13-.61.13-.18.27-.7.89-.85 1.07-.16.18-.31.2-.58.07-.27-.13-1.13-.42-2.15-1.33-.79-.7-1.32-1.56-1.48-1.83-.16-.27-.02-.42.12-.55.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.04-.34-.02-.47-.07-.13-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.47.07-.72.34-.25.27-.94.92-.94 2.23 0 1.31.96 2.57 1.09 2.75.13.18 1.89 2.91 4.6 3.99 2.71 1.08 2.71.72 3.2.68.49-.04 1.63-.66 1.86-1.3.23-.64.23-1.19.16-1.3-.07-.11-.25-.18-.52-.31z" />
+                          </svg>
+                        </a>
+                      </li>
+
+                      {/* Instagram */}
+                      <li>
+                        <a
+                          href={person.instagramUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-gray-400 hover:text-pink-500 transition-colors duration-200"
+                        >
+                          <span className="sr-only">Instagram</span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5A3.5 3.5 0 1012 15a3.5 3.5 0 000-7zm5.25-.75a1 1 0 110 2 1 1 0 010-2z" />
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
-    )
-  }
-  
+    </div>
+  )
+}

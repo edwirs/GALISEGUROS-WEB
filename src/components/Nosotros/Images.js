@@ -1,5 +1,5 @@
-import sacos from 'assets/img/Nosotros/sacos.jpeg'
-import servicios_randols from 'assets/img/Nosotros/servicios_randols.jpg'
+import sacos from 'assets/img/Nosotros/seguros1.jpg'
+import servicios_randols from 'assets/img/Nosotros/seguros3.jpg'
 
 function Images(){
     return(

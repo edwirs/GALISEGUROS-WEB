@@ -1,7 +1,10 @@
+import pareja from 'assets/img/team/fondo_pareja.png'
+import parejanueva from 'assets/img/team/foto-pareja.jpeg'
+
 const stats = [
-    { label: 'Fundado', value: '1998' },
+    { label: 'Fundado', value: '2015' },
     { label: 'Empleados', value: '5' },
-    { label: 'Clientes Beta', value: '220' },
+    { label: 'Clientes Beta', value: '900' },
     { label: 'Sedes', value: '1' },
   ]
   
@@ -39,23 +42,24 @@ const stats = [
               <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
                 <img
                   className="absolute inset-0 h-full w-full object-cover"
-                  src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100"
+                  src={parejanueva}
                   alt=""
                 />
-                <div className="absolute inset-0 bg-indigo-500 mix-blend-multiply" />
-                <div className="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90" />
+
+                {/* Capa azul más sutil */}
+                <div className="absolute inset-0 bg-indigo-500 mix-blend-multiply opacity-50" />
+
+                {/* Gradiente más natural y translúcido */}
+                <div className="absolute inset-0 bg-gradient-to-t from-indigo-700 via-indigo-500 to-transparent opacity-40" />
+
                 <div className="relative px-8">
-                  <div>
-                    <img
-                      className="h-12"
-                      src="https://tailwindui.com/img/logos/workcation.svg?color=white"
-                      alt="Workcation"
-                    />
-                  </div>
+                  <br />
+                  <br />
+                  <br />
                   <blockquote className="mt-8">
                     <div className="relative text-lg font-medium text-white md:flex-grow">
                       <svg
-                        className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-400"
+                        className="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-300"
                         fill="currentColor"
                         viewBox="0 0 32 32"
                         aria-hidden="true"
@@ -63,13 +67,14 @@ const stats = [
                         <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                       </svg>
                       <p className="relative">
-                        Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                        Montes, magna cursus nulla feugiat dignissim id lobortis amet.
+                        Proteger tu patrimonio es asegurar la continuidad de tus sueños.
                       </p>
                     </div>
-  
+
                     <footer className="mt-4">
-                      <p className="text-base font-semibold text-indigo-200">Sarah Williams, CEO at Workcation</p>
+                      <p className="text-base font-semibold text-indigo-100">
+                        Gali Seguros , 2025
+                      </p>
                     </footer>
                   </blockquote>
                 </div>
@@ -81,25 +86,47 @@ const stats = [
             {/* Content area */}
             <div className="pt-12 sm:pt-16 lg:pt-20">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                On a mission to empower teams
+                Misión
               </h2>
               <div className="mt-6 space-y-6 text-gray-500">
                 <p className="text-lg">
-                  Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                  pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel
-                  porttitor vitae ut. Amet vitae fames senectus vitae.
+                  Brindar soluciones en seguros que protejan el patrimonio y bienestar de nuestros clientes, 
+                  ofreciendo asesoría integral y personalizada con un alto estándar de calidad, ética y compromiso. 
+                  Nuestro propósito es ser el aliado estratégico que garantice tranquilidad y respaldo ante cualquier 
+                  eventualidad.
                 </p>
-                <p className="text-base leading-7">
-                  Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                  pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique
-                  eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu
-                  viverra donec ut volutpat donec laoreet quam urna.
+              </div>
+              <h2 className="mt-12 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Visión
+              </h2>
+              <div className="mt-6 space-y-6 text-gray-500">
+                <p className="text-lg">
+                  Ser una empresa reconocida a nivel nacional por la excelencia en el servicio, 
+                  la innovación en soluciones de seguros y la confianza que generamos en nuestros clientes, 
+                  consolidándonos como una firma líder en asesoría y gestión de seguros todo riesgo y líneas complementarias.
                 </p>
-                <p className="text-base leading-7">
-                  Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                  velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                  egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-                </p>
+              </div>
+              <h2 className="mt-12 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Valores Corporativos
+              </h2>
+              <div className="mt-6 text-gray-500">
+                <ul className="list-disc list-inside space-y-2 text-lg">
+                  <li>
+                    <strong>Compromiso:</strong> trabajamos con dedicación y responsabilidad en cada gestión.
+                  </li>
+                  <li>
+                    <strong>Transparencia:</strong> mantenemos relaciones claras, honestas y éticas con nuestros clientes y aliados.
+                  </li>
+                  <li>
+                    <strong>Confiabilidad:</strong> actuamos con profesionalismo y respaldo, generando seguridad en cada asesoría.
+                  </li>
+                  <li>
+                    <strong>Empatía:</strong> entendemos las necesidades de cada cliente y buscamos siempre la mejor alternativa para su protección.
+                  </li>
+                  <li>
+                    <strong>Excelencia:</strong> buscamos la mejora continua en cada servicio que ofrecemos.
+                  </li>
+                </ul>
               </div>
             </div>
   
@@ -113,12 +140,6 @@ const stats = [
                   </div>
                 ))}
               </dl>
-              <div className="mt-10">
-                <a href="#" className="text-base font-medium text-indigo-600">
-                  Learn more about how we're changing the world
-                  <span aria-hidden="true"> &rarr;</span>
-                </a>
-              </div>
             </div>
           </div>
         </div>

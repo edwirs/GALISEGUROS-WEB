@@ -1,3 +1,14 @@
+import allianz from 'assets/img/aliados/Allianz-logo.png'
+import axa from 'assets/img/aliados/AXA_COLPATRIA.png'
+import equidad from 'assets/img/aliados/EQUIDAD.png'
+import hdi from 'assets/img/aliados/HDI-SEGUROS-COLOR-1.png'
+import mapfre from 'assets/img/aliados/Mapfre_logo.svg.png'
+import previsora from 'assets/img/aliados/PrevisoraCurrent.webp'
+import qualitas from 'assets/img/aliados/qualitas.png'
+import sura from 'assets/img/aliados/Seguros_SURA_Logo.svg.png'
+import bolivar from 'assets/img/aliados/SEGUROSBOLIVAR.png'
+import estado from 'assets/img/aliados/SEGUROSDELESTADO.png'
+
 function Clients(){
     return(
         <div className="bg-white">
@@ -5,11 +16,13 @@ function Clients(){
                     <div className="lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
                         <div>
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            Usado por las empresas mas promedio de Facaatativa y sabana de occidente
+                            Aliados de confianza en todo el territorio colombiano
                         </h2>
                         <p className="mt-3 max-w-3xl text-lg text-gray-500">
-                            Contamos con clientes importantes dentro del municipio de facatativa, asi como de toda sabana de occidente, ya que nuestro objetivo
-                            es poder llegar a cada uno de los rincones de los hogares cundinamarqueses.
+                            En Gali Seguros acompañamos a clientes particulares y empresariales a nivel nacional, 
+                            brindando asesoría integral en seguros y protección patrimonial. 
+                            Nuestro compromiso es ofrecer soluciones confiables que garanticen tranquilidad y respaldo a cada familia y negocio de la región.
+                            Contamos con alianzas fuertes de las mejores aseguradoras del pais, con el fin que te sientas como en casa.
                         </p>
                         <div className="mt-8 sm:flex">
                             <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -26,34 +39,62 @@ function Clients(){
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
+                            src={axa}
                             alt="Workcation"
                             />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                            <img className="max-h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage" />
+                            <img className="max-h-12" src={hdi} alt="Mirage" />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
-                            <img className="max-h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
+                            <img className="max-h-12" src={estado} alt="Tuple" />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
+                            src={mapfre}
                             alt="Laravel"
                             />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
+                            src={equidad}
                             alt="StaticKit"
                             />
                         </div>
                         <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                             <img
                             className="max-h-12"
-                            src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
+                            src={qualitas}
+                            alt="Statamic"
+                            />
+                        </div>
+                        <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                            <img
+                            className="max-h-12"
+                            src={allianz}
+                            alt="Statamic"
+                            />
+                        </div>
+                        <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                            <img
+                            className="max-h-12"
+                            src={bolivar}
+                            alt="Statamic"
+                            />
+                        </div>
+                        <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                            <img
+                            className="max-h-12"
+                            src={sura}
+                            alt="Statamic"
+                            />
+                        </div>
+                        <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                            <img
+                            className="max-h-12"
+                            src={previsora}
                             alt="Statamic"
                             />
                         </div>
