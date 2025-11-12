@@ -2,6 +2,9 @@ import cliente1 from 'assets/img/clientes/cliente1.jpg'
 import cliente2 from 'assets/img/clientes/cliente2.webp'
 import cliente3 from 'assets/img/clientes/cliente3.png'
 import cliente4 from 'assets/img/clientes/cliente4.png'
+import cliente5 from 'assets/img/clientes/testimonio5.jpg'
+import cliente6 from 'assets/img/clientes/testimonio6.jpg'
+import cliente7 from 'assets/img/clientes/testimonio7.webp'
 
 const posts = [
     {
@@ -80,7 +83,7 @@ const posts = [
         'Buena y rápida atención. Llevo muchos años trabajando con Gali seguros y esta empresa marca la diferencia en cuanto al servicio del cliente y eficiencia en sus productos.',
       date: 'Ene, 2022',
       datetime: '2023-09-15',
-      imageUrl: cliente4,
+      imageUrl: cliente5,
       readingTime: '',
       author: {
         name: 'Maria de pilar Gómez',
@@ -97,7 +100,7 @@ const posts = [
         'En las mejores manos no he podido estar Gali seguros la mejor empresa de seguros. Muy profesionales, serios y atentos en todo lo que necesiten, máxima eficiencia. La recomiendo.',
       date: 'Dic, 2023',
       datetime: '2023-09-15',
-      imageUrl: cliente4,
+      imageUrl: cliente6,
       readingTime: '',
       author: {
         name: 'Andres Pineda',
@@ -114,7 +117,7 @@ const posts = [
         'Gran equipo, gente con calidad humana dispuestos a resolver problemas, les agradezco mucho la atención y rapidez con la que me dan solucion a lo que nececesite.',
       date: 'Mar, 2024',
       datetime: '2023-09-15',
-      imageUrl: cliente4,
+      imageUrl: cliente7,
       readingTime: '',
       author: {
         name: 'Andres Pineda',
