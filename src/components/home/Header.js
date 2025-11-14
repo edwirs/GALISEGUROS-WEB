@@ -134,11 +134,13 @@ function Header(){
             <img 
               src={carro}
               className="
+                hidden         /* ocultar por defecto (móviles) */
+                sm:block       /* mostrar desde sm hacia arriba */
                 w-auto 
-                h-[60px]        /* celulares */
-                sm:h-[120px]     /* tablets */
-                md:h-[190px]     /* pantallas medianas */
-                lg:h-[240px]     /* pantallas grandes */
+                h-[60px]
+                sm:h-[120px]
+                md:h-[190px]
+                lg:h-[240px]
                 object-contain object-top 
                 ml-auto 
                 translate-x-[-60px] translate-y-[-20px]

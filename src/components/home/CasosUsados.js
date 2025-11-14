@@ -162,7 +162,7 @@ const posts = [
                       <a href={post.author.href}>
                         <span className="sr-only">{post.author.name}</span>
                         <img
-                          className="h-10 w-10 rounded-full blur-sm hover:blur-none transition duration-300 ease-in-out"
+                          className="h-10 w-10 rounded-full blur-md transition duration-300 ease-in-out"
                           src={post.author.imageUrl}
                           alt={post.author.name}
                         />

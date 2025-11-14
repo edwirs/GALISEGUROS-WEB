@@ -9,12 +9,6 @@ import { Popover, Transition } from '@headlessui/react'
 
 const solutions = [
     {
-      name: 'Casos',
-      description: 'Measure actions your users take',
-      href: '/casos',
-      icon: IconOne,
-    },
-    {
       name: 'Servicios',
       description: 'Create your own targeted content',
       href: '/servicios',
@@ -30,7 +24,7 @@ const solutions = [
         name: 'Contacto',
         description: 'Keep track of your growth',
         href: '/contacto',
-        icon: IconThree,
+        icon: IconOne,
       },
   ]
 
