@@ -1,5 +1,5 @@
 import pareja from 'assets/img/team/fondo_pareja.png'
-import parejanueva from 'assets/img/team/foto-pareja.jpeg'
+import parejanueva from 'assets/img/team/foto-pareja-2.png'
 
 const stats = [
     { label: 'Fundado', value: '2015' },
