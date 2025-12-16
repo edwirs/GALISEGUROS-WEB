@@ -18,7 +18,7 @@ const people = [
     instagramUrl: 'https://www.instagram.com/gali.seguros?igsh=MWs0cjRmNnFpaHVvOQ==',
   },
   {
-    name: 'Luis Quiroga',
+    name: 'Luis Alfonso Quiroga',
     role: 'Dir. Administrativo Planeación - GL',
     imageUrl: luis,
     whatsappUrl: 'https://wa.me/573227354638', // <-- cambia por número real
