@@ -1,5 +1,6 @@
 import lilian from 'assets/img/team/lilian_fondo_nuevo.png'
-import gabriel from 'assets/img/team/gabriel_fondo_nuevo.png'
+import gabriel from 'assets/img/team/gabriel_final.png'
+import luis from 'assets/img/team/luis_gali.png'
 
 const people = [
   {
@@ -15,6 +16,13 @@ const people = [
     imageUrl: gabriel,
     whatsappUrl: 'https://wa.me/573186008106',
     instagramUrl: 'https://www.instagram.com/gali.seguros?igsh=MWs0cjRmNnFpaHVvOQ==',
+  },
+  {
+    name: 'Luis Quiroga',
+    role: 'Dir. Administrativo Planeación - GL',
+    imageUrl: luis,
+    whatsappUrl: 'https://wa.me/573227354638', // <-- cambia por número real
+    instagramUrl: 'https://www.instagram.com/gali.seguros?igsh=MWs0cjRmNnFpaHVvOQ==', // <-- cambia por URL real
   },
 ]
 
