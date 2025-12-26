@@ -1,6 +1,7 @@
 import Typewriter from 'typewriter-effect'
 import {Link} from 'react-router-dom'
 import carro from 'assets/img/carro_gali_sinfondo.png'
+import banner from 'assets/img/banner/banner2.png'
 
 const navigation = {
   solutions: [
@@ -150,6 +151,22 @@ function Header(){
           </div>
           </div>
         </div>
+      <div className='w-full'>
+        <img 
+              src={banner}
+              className="
+              w-screen
+              h-[80px]          /* móvil */
+              sm:h-[120px]
+              md:h-[190px]
+              lg:h-[240px]
+              object-cover
+              object-top
+              mt-10
+            "
+            alt="Decoración"
+            />
+      </div>
     </main>
     )
 }
