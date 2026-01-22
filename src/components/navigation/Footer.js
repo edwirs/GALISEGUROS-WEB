@@ -141,8 +141,13 @@ function Footer() {
           </div>
 
           {/* Año y derechos */}
-          <div className="text-gray-700 text-sm font-medium">
-            &copy; {currentYear} <span className="font-semibold">GL Gali Seguros</span>. Todos los derechos reservados.
+          <div className="text-gray-700 text-sm font-medium text-center md:text-right">
+            &copy; {currentYear}{' - '}
+            <span className="font-semibold">GALI SEGUROS & CIA LTDA</span>
+            <br />
+            <span className="text-xs text-gray-500">
+              NIT 902024636-1 · Todos los derechos reservados
+            </span>
           </div>
         </div>
 
