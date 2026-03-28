@@ -164,10 +164,10 @@ function Footer() {
           </a>{' '}
           |{' '}
           <a
-            href="tel:+573186008106"
+            href="tel:+573027817089"
             className="hover:text-blue-700 transition-colors duration-300"
           >
-            318 600 8106
+            302 781 7089
           </a>{' '}
           |{' '}
           <a

@@ -14,7 +14,7 @@ const people = [
     name: 'Gabriel Beltran',
     role: 'Gerente Administrativo - GL',
     imageUrl: gabriel,
-    whatsappUrl: 'https://wa.me/573186008106',
+    whatsappUrl: 'https://wa.me/573027817089',
     instagramUrl: 'https://www.instagram.com/gali.seguros?igsh=MWs0cjRmNnFpaHVvOQ==',
   },
   {
